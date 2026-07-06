@@ -388,3 +388,55 @@ nav a:hover{
     text-decoration:none;
     border-radius:8px;
 }
+
+.contact {
+    padding: 100px 20px;
+    text-align: center;
+    background: #0f172a;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-subtitle {
+    color: #94a3b8;
+    margin-bottom: 50px;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    background: #1e293b;
+    padding: 25px 30px;
+    border-radius: 16px;
+    min-width: 220px;
+    transition: 0.3s;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.contact-item:hover {
+    transform: translateY(-8px);
+    background: #334155;
+}
+
+.contact-item span {
+    display: block;
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 10px;
+}
+
+.contact-item a,
+.contact-item p {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
